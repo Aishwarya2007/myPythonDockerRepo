@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: mypythondockerrepo
-        image: omneconect.azurecr.io/aishwarya2007/mypythondockerrepo:#{Build.BuildId}#
+        image: omneconect.azurecr.io/aishwarya2007/mypythondockerrepo:latest
         ports:
         - containerPort: 5000
 # service type loadbalancer       
